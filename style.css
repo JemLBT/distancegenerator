@@ -107,7 +107,7 @@ input:checked + .slider:before {
 
 .longdistance {
   font-family: "Didact Gothic", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: 14px;
   border-radius: 10px;
   margin: 5px;
@@ -124,7 +124,7 @@ input:checked + .slider:before {
 
 .shortdistance {
   font-family: "Didact Gothic", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   padding: 14px;
   border-radius: 10px;
   margin: 5px;
