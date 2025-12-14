@@ -1,9 +1,14 @@
+body {
+  background-color: #f5f4ee;
+}
+
 h1 {
   font-family: "Bangers", system-ui;
   font-weight: 300;
   font-size: 60px;
   text-align: center;
   margin-top: 150px;
+  color: #16252c;
 }
 
 h2 {
@@ -12,7 +17,19 @@ h2 {
   font-style: normal;
   font-size: 14px;
   text-align: center;
+  color: #16252c;
   margin-bottom: 30px;
+}
+
+.footer {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #16252c;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 main {
@@ -29,6 +46,8 @@ main {
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Hide default checkbox */
@@ -43,7 +62,7 @@ main {
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background-color: #ccc;
+  background-color: #345469;
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -56,14 +75,14 @@ main {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #f5f4ee;
   transition: 0.4s;
   border-radius: 50%;
 }
 
 /* Checked (Miles) */
 input:checked + .slider {
-  background-color: #366364;
+  background-color: #e65d26;
 }
 
 input:checked + .slider:before {
@@ -76,16 +95,44 @@ input:checked + .slider:before {
   font-size: 20px;
 }
 
-button {
+#output {
+  font-size: 50px;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 14px;
-  padding: 12px;
-  border-radius: 10px;
+  font-weight: 900;
+  color: #16252c;
+  margin-top: 30px;
 }
 
-button.hover {
+.longdistance {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #fe7743;
+  border: none;
+  color: #f5f4ee;
+}
+
+.longdistance:hover {
   cursor: pointer;
-  background-color: red;
+  background-color: #e65d27;
+}
+
+.shortdistance {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: #345469;
+  border: none;
+  color: #f5f4ee;
+}
+
+.shortdistance:hover {
+  cursor: pointer;
+  background-color: #3c444a;
 }
 
 @media (max-width: 576px) {

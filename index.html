@@ -17,7 +17,7 @@
     <head> </head>
     <body>
       <h1>How far will you run?</h1>
-      <h2>Pick your preferred unit of measurement and tap the distance!</h2>
+      <h2>Pick your preferred unit of measurement tap the distance!</h2>
 
       <main>
         <!-- Toggle -->
@@ -30,8 +30,12 @@
         <br /><br />
 
         <!-- Buttons -->
-        <button onclick="generateShortDistance()">Short Distance</button>
-        <button onclick="generateLongDistance()">Long Distance</button>
+        <button class="shortdistance" onclick="generateShortDistance()">
+          Short Distance
+        </button>
+        <button class="longdistance" onclick="generateLongDistance()">
+          Long Distance
+        </button>
 
         <p id="output"></p>
       </main>
@@ -75,6 +79,14 @@
           updateDisplay();
         }
       </script>
+      <footer class="footer">
+        Designed & built by
+        <a href="https://instagram.com/adesignjem" target="_blank"
+          ><img src="jemlogo.png" width="20px"
+        /></a>
+
+        <a href="https://adesignjem.com/" target="_blank"> @adesignjem</a>
+      </footer>
     </body>
   </html>
 </html>
