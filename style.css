@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+}
+main {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+/* Toggle container */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+/* Slider circle */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Checked (Miles) */
+input:checked + .slider {
+  background-color: #7bc96f;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.unit-label {
+  margin-left: 10px;
+  font-weight: bold;
+}
