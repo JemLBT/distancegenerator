@@ -98,7 +98,7 @@ input:checked + .slider:before {
 
 #output {
   font-size: 40px;
-  font-family: "Bangers", system-ui;
+  font-family: "Didact Gothic", sans-serif;
   font-weight: 900;
   color: #16252c;
   margin-top: 30px;
