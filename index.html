@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <button onclick="generateDistance()">Short Distance</button>
+    <p id="output"></p>
+
+    <script>
+      function generateDistance() {
+        // Generate a random whole number between 3 and 15 (inclusive), rounded up
+        const distance = Math.ceil(Math.random() * (15 - 3) + 3);
+        document.getElementById("output").textContent = distance + " km";
+      }
+    </script>
+    <button onclick="generateLongDistance()">Longer Distance</button>
+    <p id="output"></p>
+
+    <script>
+      function generateLongDistance() {
+        // Generate a random whole number between 15 and 35 (inclusive), rounded up
+        const distance = Math.ceil(Math.random() * (35 - 15) + 15);
+        document.getElementById("output").textContent = distance + " km";
+      }
+    </script>
+  </body>
+</html>
