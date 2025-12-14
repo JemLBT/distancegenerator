@@ -99,7 +99,7 @@ input:checked + .slider:before {
   font-size: 40px;
   font-family: "Bangers", system-ui;
   font-weight: 900;
-  color: #16252c;
+  color: #291efe;
   margin-top: 30px;
 }
 
@@ -116,7 +116,7 @@ input:checked + .slider:before {
 
 .longdistance:hover {
   cursor: pointer;
-  background-color: #16252c;
+  background-color: #696969;
 }
 
 .shortdistance {
@@ -132,7 +132,8 @@ input:checked + .slider:before {
 
 .shortdistance:hover {
   cursor: pointer;
-  background-color: #16252c;
+  background-color: #696969;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 576px) {
