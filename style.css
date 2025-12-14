@@ -25,10 +25,10 @@ h2 {
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 10px;
   text-align: center;
   color: #16252c;
-  margin-bottom: 10px;
+
   text-align: center;
 }
 
@@ -62,7 +62,7 @@ main {
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background-color: #345469;
+  background-color: #e0248e;
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -82,7 +82,7 @@ main {
 
 /* Checked (Miles) */
 input:checked + .slider {
-  background-color: #e65d26;
+  background-color: #e0248e;
 }
 
 input:checked + .slider:before {
@@ -96,8 +96,8 @@ input:checked + .slider:before {
 }
 
 #output {
-  font-size: 50px;
-  font-family: "Didact Gothic", sans-serif;
+  font-size: 40px;
+  font-family: "Bangers", system-ui;
   font-weight: 900;
   color: #16252c;
   margin-top: 30px;
@@ -109,14 +109,14 @@ input:checked + .slider:before {
   padding: 14px;
   border-radius: 10px;
   margin: 5px;
-  background-color: #fe7743;
+  background-color: #16252c;
   border: none;
   color: #f5f4ee;
 }
 
 .longdistance:hover {
   cursor: pointer;
-  background-color: #e65d27;
+  background-color: #16252c;
 }
 
 .shortdistance {
@@ -125,14 +125,14 @@ input:checked + .slider:before {
   padding: 14px;
   border-radius: 10px;
   margin: 5px;
-  background-color: #345469;
+  background-color: #16252c;
   border: none;
   color: #f5f4ee;
 }
 
 .shortdistance:hover {
   cursor: pointer;
-  background-color: #3c444a;
+  background-color: #16252c;
 }
 
 @media (max-width: 576px) {
