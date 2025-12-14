@@ -82,3 +82,14 @@ button {
   padding: 12px;
   border-radius: 10px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+    max-width: 300px;
+  }
+}
