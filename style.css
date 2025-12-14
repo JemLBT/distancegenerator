@@ -114,6 +114,7 @@ input:checked + .slider:before {
   background-color: #16252c;
   border: none;
   color: #f5f4ee;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .longdistance:hover {
@@ -130,6 +131,7 @@ input:checked + .slider:before {
   background-color: #16252c;
   border: none;
   color: #f5f4ee;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .shortdistance:hover {
