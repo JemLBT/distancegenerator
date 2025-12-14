@@ -16,7 +16,7 @@ h2 {
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   color: #16252c;
   margin-bottom: 30px;
@@ -24,9 +24,9 @@ h2 {
 
 .footer {
   font-family: "Didact Gothic", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   color: #16252c;
   text-align: center;
@@ -98,17 +98,16 @@ input:checked + .slider:before {
 
 #output {
   font-size: 40px;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   font-weight: 900;
   color: #16252c;
   margin-top: 30px;
-  letter-spacing: 2px;
 }
 
 .longdistance {
   font-family: "Didact Gothic", sans-serif;
   font-size: 16px;
-  padding: 14px;
+  padding: 14px 32px;
   border-radius: 10px;
   margin: 5px;
   background-color: #16252c;
@@ -125,7 +124,7 @@ input:checked + .slider:before {
 .shortdistance {
   font-family: "Didact Gothic", sans-serif;
   font-size: 16px;
-  padding: 14px;
+  padding: 15px 32px;
   border-radius: 10px;
   margin: 5px;
   background-color: #16252c;
