@@ -1,5 +1,7 @@
 body {
-  background-color: #f5f4ee;
+  background-image: url("run.png");
+  background-size: cover;
+  opacity: 0.9;
 }
 
 h1 {
@@ -8,7 +10,7 @@ h1 {
   font-size: 60px;
   text-align: center;
   margin-top: 120px;
-  color: #16252c;
+  color: #f5f4ee;
 }
 
 h2 {
@@ -17,7 +19,7 @@ h2 {
   font-style: normal;
   font-size: 14px;
   text-align: center;
-  color: #16252c;
+  color: #f5f4ee;
   margin-bottom: 30px;
 }
 
@@ -27,7 +29,7 @@ h2 {
   font-style: normal;
   font-size: 10px;
   text-align: center;
-  color: #16252c;
+  color: #ff2996;
 
   text-align: center;
 }
@@ -93,14 +95,16 @@ input:checked + .slider:before {
   margin-left: 10px;
   font-family: "Didact Gothic", sans-serif;
   font-size: 16px;
+  color: #f5f4ee;
 }
 
 #output {
   font-size: 40px;
   font-family: "Bangers", system-ui;
   font-weight: 900;
-  color: #291efe;
+  color: #f5f4ee;
   margin-top: 30px;
+  letter-spacing: 2px;
 }
 
 .longdistance {
