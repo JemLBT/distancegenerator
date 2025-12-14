@@ -62,7 +62,7 @@ main {
   position: absolute;
   cursor: pointer;
   inset: 0;
-  background-color: #e0248e;
+  background-color: #ff2996;
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -82,7 +82,7 @@ main {
 
 /* Checked (Miles) */
 input:checked + .slider {
-  background-color: #e0248e;
+  background-color: #291efe;
 }
 
 input:checked + .slider:before {
@@ -92,7 +92,7 @@ input:checked + .slider:before {
 .unit-label {
   margin-left: 10px;
   font-family: "Didact Gothic", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #output {
