@@ -100,7 +100,7 @@ input:checked + .slider:before {
   font-size: 40px;
   font-family: "Bangers", system-ui;
   font-weight: 900;
-  color: #f5f4ee;
+  color: #16252c;
   margin-top: 30px;
   letter-spacing: 2px;
 }
