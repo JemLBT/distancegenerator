@@ -1,11 +1,27 @@
-body {
-  font-family: Arial, sans-serif;
+h1 {
+  font-family: "Bangers", system-ui;
+  font-weight: 300;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 150px;
 }
+
+h2 {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 main {
   max-width: 600px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 150px;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* Toggle container */
 .switch {
@@ -47,7 +63,7 @@ main {
 
 /* Checked (Miles) */
 input:checked + .slider {
-  background-color: #7bc96f;
+  background-color: #366364;
 }
 
 input:checked + .slider:before {
@@ -56,5 +72,13 @@ input:checked + .slider:before {
 
 .unit-label {
   margin-left: 10px;
-  font-weight: bold;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 20px;
+}
+
+button {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 14px;
+  padding: 12px;
+  border-radius: 10px;
 }
